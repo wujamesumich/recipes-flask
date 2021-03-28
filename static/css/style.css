@@ -1,0 +1,13 @@
+/* Contains CSS that should be consistent on every page */
+nav img {
+    width: 50px;
+}
+
+nav {
+    background-color: #F55E61;
+}
+
+.red-div {
+    margin-top: 0px;
+    border-top: 5px solid #F55E61;
+}
