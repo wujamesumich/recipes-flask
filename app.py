@@ -22,7 +22,7 @@ def hello():
         url = hit['recipe']['url']
         healthLabels = hit['recipe']['healthLabels']
         cautions = hit['recipe']['cautions']
-        recipes.append({'label': label, 'image': image, 'url': url, 'healthLables': healthLabels, 'cautions': cautions})
+        recipes.append({'label': label, 'image': image, 'url': url, 'healthLabels': healthLabels, 'cautions': cautions})
 
     context = {'recipes': recipes}
     return flask.render_template("index.html", **context)
